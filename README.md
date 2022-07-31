@@ -1,4 +1,3 @@
-# AI image recognition challenge
 project-1NxN1 created by GitHub Classroom
 # Automatic License Number Plate Detection And Recognition
 ## _Table of Content_
@@ -41,9 +40,10 @@ python3 Detect_Plate.py --target images/Cars1.png
 ```
 
 ## _Performance_
-![image](https://github.com/Figure_1.png)
-![image](https://github.com/Figure_2.png)
-![image](https://github.com/Figure_3.png)
-![image](https://github.com/Figure_4.png)
-## _License_
-[MIT](LICENSE)
+![image](https://github.com/ACM40960/project-21200683/blob/main/Figure_1.png)
+![image](https://github.com/ACM40960/project-21200683/blob/main/Figure_2.png)
+![image](https://github.com/ACM40960/project-21200683/blob/main/Figure_3.png)
+![image](https://github.com/ACM40960/project-21200683/blob/main/Figure_4.png)
+## Author
+Yusen Xie , Ning Xu
+

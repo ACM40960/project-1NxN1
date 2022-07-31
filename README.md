@@ -37,4 +37,46 @@ pip install imutils==0.5.4
 pip install matplotlib==3.3.4
 ```
 ## _Download data_
->For any program
+>For any program, after we have installed the necessary components, it's time to prepare the data
+>The data has been uploaded to my Google Drive, and I have uploaded a copy on github.
+
+>Here is the Link to Google Drive:https://drive.google.com/drive/folders/1Grli6Q_1cK0o39csBhfXTU10vbNV-PnB?usp=sharing
+
+## _Usage_
+> Firstly, CNN Model must be trained if there is no 'model.pkt'
+```sh
+python3 train.py
+```
+> Then, we can detect an image by input an image name
+```sh
+python3 Detect_Plate.py --target "the name of image"
+```
+## car plate classification modelling
+
+>The code is divided into four parts, which are Preprocess,model,train,Detect_Plate.
+
+> processs.py  processes the image, and then model.py builds the model.
+
+>train.py is divided into three parts, which are hypothesis, data loading, train
+
+>Finally Detect_plate.pv,Using open_CV and CNN model "LeNet" to detect Car License number
+
+
+
+## _Example_
+
+```sh
+python3 Detect_Plate.py --target images/Cars1.png
+```
+
+## _Performance_
+![image](https://github.com/ACM40960/project-yusen-xie/blob/main/Figure_1.png)
+![image](https://github.com/ACM40960/project-yusen-xie/blob/main/Figure_2.png)
+![image](https://github.com/ACM40960/project-yusen-xie/blob/main/Figure_3.png)
+![image](https://github.com/ACM40960/project-yusen-xie/blob/main/Figure_4.png)
+
+## Author
+Ning Xu, Yusen Xie
+
+## _License_
+This Application is currently not licensed and is free to use by everyone.

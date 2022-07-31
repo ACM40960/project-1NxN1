@@ -46,4 +46,5 @@ python3 Detect_Plate.py --target images/Cars1.png
 ![image](https://github.com/ACM40960/project-21200683/blob/main/Figure_4.png)
 ## Author
 Yusen Xie , Ning Xu
-
+## _License_
+This Application is currently not licensed and is free to use by everyone.
